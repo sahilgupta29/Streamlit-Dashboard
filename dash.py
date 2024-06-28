@@ -18,7 +18,7 @@ if fl is not None:
     df=pd.read_csv(filename)
     
 else:
-    os.chdir(r"D:\streamlit apps\dashboard") 
+    # os.chdir(r"D:\streamlit apps\dashboard") 
     df=pd.read_csv("Super.csv")
 
 col1, col2 = st.columns((2))
